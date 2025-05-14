@@ -1,0 +1,1 @@
+# phpBB-case-sensitive-img
