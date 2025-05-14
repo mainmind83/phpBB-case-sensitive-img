@@ -85,14 +85,14 @@ if ($result && $result->num_rows > 0) {
             $ruta_relativa = '';
 
             foreach ($dominios_validos as $dominio) {
-                if (stripos($image_url, $dominio . '/eventos/') === 0 || stripos($image_url, $dominio . '/proyectos/') === 0) {
+                if (stripos($image_url, $dominio . '/galeria/') === 0 || stripos($image_url, $dominio . '/imagenes/') === 0) {
                     $comprobar = true;
                     $ruta_relativa = str_ireplace($dominio, '', $image_url);
                     break;
                 }
             }
 
-            if (!$comprobar && (stripos($image_url, '/eventos/') === 0 || stripos($image_url, '/proyectos/') === 0)) {
+            if (!$comprobar && (stripos($image_url, '/galeria/') === 0 || stripos($image_url, '/imagenes/') === 0)) {
                 $comprobar = true;
                 $ruta_relativa = $image_url;
             }
