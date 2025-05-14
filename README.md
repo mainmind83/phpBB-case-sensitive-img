@@ -6,6 +6,7 @@ Se tienen en cuenta:
 
 - Posibles alias de dominio
 - Urls relativas o absolutas
+- Se limita a directorio /galeria e /imagenes
 
 En el proceso:
 
