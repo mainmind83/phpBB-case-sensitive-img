@@ -1,6 +1,6 @@
 # phpBB-case-sensitive-img
 
-Después de una migración de alojamiento de IIS a Apache/Linux las URL de imágenes no funcionaban correctamente al ser sensibles a mayúsculas/minúsculas en el nuevo sistema operativo, aunque existe la posibilidad de establecer reglas a nivel de servidor. Se crea un script para buscar imágenes en los mensajes de la base de datos de phpBB y buscar imágenes en el mismo directorio con el mismo nombre pero con posibles variantes de mayúsculas/minúsculas.
+Después de una [migración de alojamiento de IIS a Apache/Linux](https://www.mainmind.com/blog/case-sensitive-phpbb-iis-linux/) las URL de imágenes no funcionaban correctamente al ser sensibles a mayúsculas/minúsculas en el nuevo sistema operativo, aunque existe la posibilidad de establecer reglas a nivel de servidor. Se crea un script para buscar imágenes en los mensajes de la base de datos de phpBB y buscar imágenes en el mismo directorio con el mismo nombre pero con posibles variantes de mayúsculas/minúsculas.
 
 Se tienen en cuenta:
 
